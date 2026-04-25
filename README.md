@@ -168,15 +168,8 @@ Custom wrapper over Python’s `heapq` for efficient priority queue operations
 
 ---
 
-## ⚠️ Notes
+<img width="1128" height="619" alt="image" src="https://github.com/user-attachments/assets/7139cad5-43a7-4210-9f6c-a14626bdf21a" />
 
-* Only **direct (non-stop) flights** are considered
-* Pricing is **distance-based (not real ticket prices)**
-* Some routes may be skipped due to missing airport data
-
----
-
-## Acknowledgments
 
 - [OpenFlights](https://openflights.org/) for providing the airport and route datasets
 - The Haversine formula for accurate distance calculations
