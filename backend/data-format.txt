@@ -1,0 +1,23 @@
+### airports.csv ###
+Airport ID: 1
+Name: Goroka Airport
+City: Goroka
+Country: Papua New Guinea
+IATA code: GKA
+ICAO codes: AYGA
+Coordinates: Latitude −6.0817, Longitude 145.392
+Altitude: 5282 ft above sea level
+Timezone: UTC +10 (Pacific/Port_Moresby)
+DST: U = No Daylight Saving Time
+Type: airport
+Source: OurAirports
+
+
+### flights.csv ###
+Airline: 2B → This is Ak Bars Aero (a Russian airline).	
+Airline ID: 410 → Internal ID in airlines.dat.	
+Source: AER → Sochi International Airport (ID 2965).	
+Destination: KZN → Kazan International Airport (ID 2990).	
+Codeshare: (blank) → Not a codeshare flight.	
+Stops: 0 → It’s a direct flight.	
+Equipment: CR2 → Aircraft type CRJ-200 (Bombardier Regional Jet).
