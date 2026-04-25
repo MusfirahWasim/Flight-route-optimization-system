@@ -1,21 +1,21 @@
-# ✈️ Flight Route Optimization System
+# Flight Route Optimization System
 
 This project implements a flight route optimization system using real-world aviation data from the OpenFlights dataset. It computes the **cheapest route** and **top K cheapest routes** between airports using advanced graph algorithms.
 
 ---
 
-## 📌 Features
+## Features
 
-* 🌍 Load real-world airport and flight datasets
-* 🔗 Build a global flight network graph
-* 💰 Estimate flight costs using geographical distance
-* 🚀 Find cheapest route using **Dijkstra’s Algorithm**
-* 🛤️ Find top K routes using **Yen’s Algorithm**
-* ⚡ Efficient implementation using heaps and caching
+* Load real-world airport and flight datasets
+* Build a global flight network graph
+* Estimate flight costs using geographical distance
+* Find cheapest route using **Dijkstra’s Algorithm**
+* Find top K routes using **Yen’s Algorithm**
+* Efficient implementation using heaps and caching
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 Based on the **OpenFlights dataset**:
 
@@ -26,7 +26,7 @@ Source: [https://github.com/jpatokal/openflights](https://github.com/jpatokal/op
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 .
@@ -39,7 +39,7 @@ Source: [https://github.com/jpatokal/openflights](https://github.com/jpatokal/op
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Clone the repository:
 
@@ -56,7 +56,7 @@ pip install haversine
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run the main script:
 
@@ -66,7 +66,7 @@ python dijkstra.py
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Data Parsing
 
@@ -99,12 +99,12 @@ price = distance × cost_per_km
 
 ### 4. Algorithms
 
-#### 🔹 Dijkstra’s Algorithm
+####  Dijkstra’s Algorithm
 
 * Finds the **single cheapest route**
 * Uses a **priority queue (min-heap)**
 
-#### 🔹 Yen’s Algorithm
+####  Yen’s Algorithm
 
 * Finds **top K cheapest routes**
 * Generates alternative paths
@@ -112,7 +112,7 @@ price = distance × cost_per_km
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```
 === Cheapest Route ===
@@ -131,7 +131,7 @@ Route 3: 580.75€
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### `Airport`
 
@@ -168,15 +168,11 @@ Custom wrapper over Python’s `heapq` for efficient priority queue operations
 
 ---
 
-## ⚠️ Notes
-
-* Only **direct (non-stop) flights** are considered
-* Pricing is **distance-based (not real ticket prices)**
-* Some routes may be skipped due to missing airport data
+<img width="1128" height="619" alt="image" src="https://github.com/user-attachments/assets/7139cad5-43a7-4210-9f6c-a14626bdf21a" />
 
 ---
 
-## Acknowledgments
+### `Acknowledgement`
 
 - [OpenFlights](https://openflights.org/) for providing the airport and route datasets
 - The Haversine formula for accurate distance calculations
